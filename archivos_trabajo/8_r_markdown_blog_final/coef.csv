@@ -1,0 +1,137 @@
+Variable,Clave,Etiqueta,valor en la herramienta,categorías,Signo 
+1,p05 ,Edad,.,.,POS
+2,factor(p06)2 ,Sexo,2,mujer ,POS
+3,factor(p09_1)2 ,Hospital al que asiste ,2,"ISSSTE o ISSSTE Estatal (ISSEMYM, ISSSTEZAC, etc.)",NEG
+3,factor(p09_1)3 ,Hospital al que asiste ,3,"Pemex, Defensa o Marina",POS
+3,factor(p09_1)4 ,Hospital al que asiste ,4,Centro de salud u hospital de la SSA ,NEG
+3,factor(p09_1)5 ,Hospital al que asiste ,5,Seguro Popular,POS
+3,factor(p09_1)6 ,Hospital al que asiste ,6,"Otro servicio de salud público (DIF, INI, de los estados)",POS
+3,factor(p09_1)7 ,Hospital al que asiste ,7,"Consultorio, clínica u hospital privado",POS
+3,factor(p09_1)8 ,Hospital al que asiste ,8,Consultorio de una farmacia,NEG
+3,factor(p09_1)9 ,Hospital al que asiste ,9,Se automedica,NEG
+3,factor(p09_1)10 ,Hospital al que asiste ,10,Otro lugar,POS
+3,factor(p09_1)11 ,Hospital al que asiste ,.,No se atiende,NEG
+3,factor(p09_1)98 ,Hospital al que asiste ,.,NS,NEG
+4,factor(p10_1)2 ,Asegurado,2,ISSSTE o ISSSTE estatal,POS
+4,factor(p10_1)3 ,Asegurado,3,"Pemex, Defensa o Marina",NEG
+4,factor(p10_1)4 ,Asegurado,4,Seguro Popular o para una Nueva Generación,NEG
+4,factor(p10_1)5 ,Asegurado,5,IMSS Oportunidades,NEG
+4,factor(p10_1)6,Asegurado,6,Seguro Privado,POS
+4,factor(p10_1)7 ,Asegurado,7,Otra institución,NEG
+4,factor(p10_1)8 ,Asegurado,8,"Entonces, ¿no tiene derecho a servicios médicos?",NEG
+4,factor(p10_1)98 ,Asegurado,.,NS,NEG
+5,estatura ,Estatura,.,.,POS
+6,p21 ,peso,.,.,POS
+7,factor(p23)2 ,Entidad federativa a los 14,2,Baja California,POS
+7,factor(p23)3 ,Entidad federativa a los 14,3,Baja California Sur,NEG
+7,factor(p23)4 ,Entidad federativa a los 14,4,Campeche,POS
+7,factor(p23)5 ,Entidad federativa a los 14,5,Coahuila de Zaragoza,NEG
+7,factor(p23)6 ,Entidad federativa a los 14,6,Colima,POS
+7,factor(p23)7 ,Entidad federativa a los 14,7,Chiapas,NEG
+7,factor(p23)8 ,Entidad federativa a los 14,8,Chihuahua,POS
+7,factor(p23)9 ,Entidad federativa a los 14,9,Ciudad de México,NEG
+7,factor(p23)10 ,Entidad federativa a los 14,10,Durango,POS
+7,factor(p23)11 ,Entidad federativa a los 14,11,Guanajuato,POS
+7,factor(p23)12 ,Entidad federativa a los 14,12,Guerrero,NEG
+7,factor(p23)13 ,Entidad federativa a los 14,13,Hidalgo,NEG
+7,factor(p23)14 ,Entidad federativa a los 14,14,Jalisco,POS
+7,factor(p23)15 ,Entidad federativa a los 14,15,México,NEG
+7,factor(p23)16 ,Entidad federativa a los 14,16,Michoacán de Ocampo,POS
+7,factor(p23)17,Entidad federativa a los 14,17,Morelos,NEG
+7, factor(p23)18 ,Entidad federativa a los 14,18,Nayarit,POS
+7,factor(p23)19 ,Entidad federativa a los 14,19,Nuevo León,POS
+7,factor(p23)20,Entidad federativa a los 14,20,Oaxaca,NEG
+7,factor(p23)21 ,Entidad federativa a los 14,21,Puebla,NEG
+7,factor(p23)22 ,Entidad federativa a los 14,22,Querétaro,POS
+7,factor(p23)23 ,Entidad federativa a los 14,23,Quintana Roo,POS
+7,factor(p23)24 ,Entidad federativa a los 14,24,San Luis Potosí,POS
+7,factor(p23)25 ,Entidad federativa a los 14,25,Sinaloa,NEG
+7,factor(p23)26 ,Entidad federativa a los 14,26,Sonora,NEG
+7,factor(p23)27 ,Entidad federativa a los 14,27,Tabasco,POS
+7,factor(p23)28 ,Entidad federativa a los 14,28,Tamaulipas,POS
+7,factor(p23)29 ,Entidad federativa a los 14,29,Tlaxcala,NEG
+7,factor(p23)30 ,Entidad federativa a los 14,30,Veracruz de Ignacio de la Llave,NEG
+7,factor(p23)31 ,Entidad federativa a los 14,31,Yucatán,POS
+7,factor(p23)32 ,Entidad federativa a los 14,32,Zacatecas,POS
+7,factor(p23)221 ,Entidad federativa a los 14,.,EUA,POS
+7,factor(p23)229 ,Entidad federativa a los 14,.,Honduras,NEG
+7,factor(p23)415 ,Entidad federativa a los 14,.,España,NEG
+8,factor(p24)2 ,tamaño localidad,2,Ciudad grande (entre 100 mil y 500 mil habitantes),NEG
+8,factor(p24)3 ,tamaño localidad,3,Ciudad mediana (entre 15 mil y 100 mil habitantes),POS
+8,factor(p24)4 ,tamaño localidad,4,"Ciudad chica (entre 2,500 y 15 mil habitantes)",NEG
+8,factor(p24)5 ,tamaño localidad,5,"Pueblo (menos de 2,500 habitantes)",NEG
+9,p28,no. Cuartos a los14 años,.,.,POS
+10,p38_11,edad del padre,.,.,POS
+11, p38m_11 ,edad de la madre,.,.,POS
+12,factor(p43)3 ,Escolaridad padre,3,Secundaria técnica,NEG
+12,factor(p43)4 ,Escolaridad padre,4,Secundaria general,POS
+12,factor(p43)5 ,Escolaridad padre,5,Preparatoria técnica,NEG
+12,factor(p43)6 ,Escolaridad padre,6,Preparatoria general,POS
+12,factor(p43)7 ,Escolaridad padre,7,Técnica o comercial con secundaria,POS
+12,factor(p43)8,Escolaridad padre,8,Técnica o comercial con preparatoria,POS
+12, factor(p43)9 ,Escolaridad padre,9,Normal básica (con primaria o secundari,POS
+12,factor(p43)10 ,Escolaridad padre,10,Normal de licenciatura,POS
+12,factor(p43)11,Escolaridad padre,11,Profesional (licenciatura o ingeniería),POS
+12,factor(p43)12,Escolaridad padre,12,Postgrado (maestría o doctorado),POS
+12, factor(p43)98,Escolaridad padre,.,NS,NEG
+13,factor(p43m)2 ,Escolaridad madre,2,Primaria,NEG
+13,factor(p43m)3 ,Escolaridad madre,3,Secundaria técnica,NEG
+13,factor(p43m)4 ,Escolaridad madre,4,Secundaria general,NEG
+13,factor(p43m)5 ,Escolaridad madre,5,Preparatoria técnica,NEG
+13,factor(p43m)6 ,Escolaridad madre,6,Preparatoria general,NEG
+13,factor(p43m)7 ,Escolaridad madre,7,Técnica o comercial con secundaria,NEG
+13,factor(p43m)8 ,Escolaridad madre,8,Técnica o comercial con preparatoria,NEG
+13,factor(p43m)9 ,Escolaridad madre,9,Normal básica (con primaria o secundari,NEG
+13,factor(p43m)10 ,Escolaridad madre,10,Normal de licenciatura,NEG
+13,factor(p43m)11 ,Escolaridad madre,11,Profesional (licenciatura o ingeniería),NEG
+13,factor(p43m)12 ,Escolaridad madre,12,Postgrado (maestría o doctorado),NEG
+13,factor(p43m)98 ,Escolaridad madre,.,.,NEG
+14,p60,Cantidad de hermanos,.,.,NEG
+15,p61 ,orden en que nacio ,.,.,POS
+16,p64 ,edad dejo la escuela ,.,.,POS
+17,p86 ,horas trabajadas pro semana,.,.,POS
+18,p87 ,año en que empezo a trabajar,.,.,POS
+19,p98 ,edad primer trabajo,.,.,POS
+20,p122 ,cuartos totales,.,.,POS
+21,p131 ,no autos,.,.,POS
+22,p132 ,aportantes al hogar,.,.,POS
+23,p142 ,edad comenzo a vivir en pareja,.,.,NEG
+24,p143 ,hijos,.,.,NEG
+25,p144 ,edad al que tuvo el primer hijo,.,.,POS
+25,factor(p151)2 ,color de piel,2,menos oscuro el más oscuro,POS
+25,factor(p151)3 ,color de piel,3,oscuro,POS
+25,factor(p151)4 ,color de piel,4,oscuro-media,POS
+25,factor(p151)5 ,color de piel,5,medio-oscuro,POS
+25,factor(p151)6 ,color de piel,6,media,POS
+25,factor(p151)7 ,color de piel,7,medio-claro,POS
+25,factor(p151)8 ,color de piel,8,claro-media,POS
+25,factor(p151)9 ,color de piel,9,claro,POS
+25,factor(p151)10 ,color de piel,10,poco menos que el más claro,POS
+26,factor(p151)11 ,color de piel,11,el más claro,POS
+26,factor(region)2 ,region,2,Norte-occidente,NEG
+26,factor(region)3 ,region,3,Centro-norte,NEG
+26,factor(region)4 ,region,4,Centro,POS
+27,factor(region)5 ,region,5,Sur,NEG
+27,factor(escolaridadh)1 ,Años estudiados,.,1,NEG
+27,factor(escolaridadh)2 ,Años estudiados,.,2,NEG
+27,factor(escolaridadh)3 ,Años estudiados,.,3,NEG
+27,factor(escolaridadh)4 ,Años estudiados,.,4,POS
+27,factor(escolaridadh)5 ,Años estudiados,.,5,POS
+27,factor(escolaridadh)6 ,Años estudiados,.,6,POS
+27,factor(escolaridadh)7 ,Años estudiados,.,7,POS
+27,factor(escolaridadh)8 ,Años estudiados,.,8,NEG
+27,factor(escolaridadh)9 ,Años estudiados,.,9,POS
+27,factor(escolaridadh)10 ,Años estudiados,.,10,POS
+27,factor(escolaridadh)11 ,Años estudiados,.,11,POS
+27,factor(escolaridadh)12 ,Años estudiados,.,12,POS
+27,factor(escolaridadh)13 ,Años estudiados,.,13,POS
+27,factor(escolaridadh)14 ,Años estudiados,.,14,POS
+27,factor(escolaridadh)15 ,Años estudiados,.,15,POS
+27,factor(escolaridadh)16 ,Años estudiados,.,16,POS
+27,factor(escolaridadh)17 ,Años estudiados,.,17,POS
+27,factor(escolaridadh)18 ,Años estudiados,.,18,POS
+27,factor(escolaridadh)19 ,Años estudiados,.,19,POS
+27,factor(escolaridadh)20 ,Años estudiados,.,20,POS
+27,factor(escolaridadh)21 ,Años estudiados,.,21,NEG
+28,factor(escolaridadh)22 ,Años estudiados,.,22,POS
+29,indigena ,Indígena,1,Habla una lengua,NEG

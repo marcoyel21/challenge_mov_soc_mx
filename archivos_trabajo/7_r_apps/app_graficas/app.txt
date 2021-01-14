@@ -1,0 +1,48 @@
+---
+title: "Dime con quién viviste y te diré lo que te espera"
+runningheader: "Tufte Handout with R Markdown" # only for pdf output
+subtitle: "Data Challenge" # only for html output
+author: "Equipo 03"
+date: "2020-12-01"
+output: 
+  tufte::tufte_html: default
+  runtime: shiny
+  tufte::tufte_handout:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_book:
+    citation_package: natbib
+    latex_engine: xelatex
+bibliography: skeleton.bib
+link-citations: yes
+---
+  
+
+
+# Introduction
+
+La creciente y persistente desigualdad en las sociedades y la aparente inhabilidad de los distintos modelos económicos tradicionales (capitalismo liberal al estilo estadounidense, capitalismo planificado al estilo chino, capitalismo intervencionista al estilo europeo o socialismo al estilo cubano) para disminuir dicha desigualdad, han impulsado un renovado interés en hacer investigación acerca de la movilidad (o inmovilidad) intergeneracional en distintos países. El enfoque parte de que existen condiciones fuera del control de cada uno de nosotros – como dónde nacemos, qué nivel educativo y qué ocupación tienen nuestros padres (por dar un par de ejemplos) – que influyen y en muchos casos incluso determinan el desempeño vital que tendremos. En ese sentido, nuestra habilidad de movernos de un decil o quintil de ingreso a otro no del todo depende sólo de nosotros.
+
+Raj Chetty, connotado economista e investigador de la prestigiada universidad de Harvard, ha dedicado una parte importante de su vida académica a estudiar el fenómeno de movilidad intergeneracional estudiando por ejemplo si el famoso “sueño americano” sigue siendo una realidad^[Mira su artículo en [*The Atlantic*](https://www.theatlantic.com/magazine/archive/2019/08/raj-chettys-american-dream/592804/)]. En este “sueño” uno puede superar cualquier deficiencia o carencia determinada por la familia y entorno socioeconómico en el que nacemos mediante, básicamente, el acceso a la educación y la dedicación al trabajo: una meritocracia en el sentido más amplio de la palabra. Tu desempeño no es otra cosa que el resultado directo de tu mérito propio. Pero, ¿es esto una realidad?
+  
+  Chetty ha usado sus conocimientos de teoría económica de la mano de análisis estadístico aprovechando el auge del “big data” y ha encontrado clara evidencia que el sueño americano es precisamente eso: un sueño. El porcentaje de niños estadounidenses que logran un nivel de ingreso mayor al de sus padres ha venido disminuyendo inexorablemente, al grado que hoy en día, sólo el 50% de los niños de ese país logra un nivel de ingreso mayor que el de sus padres.
+Si eso sucede en uno de los supuestos bastiones de la movilidad intergeneracional: ¿qué pasa en México? ¿Qué papel juegan las “circunstancias” de nacimiento en las oportunidades de lograr un “brincar” del decil de ingreso de nuestros padres a uno más alto? 
+  
+  No es sorpresa para nadie que México es un país con profundas desigualdades, y si esas desigualdades tienden a traducirse en menor movilidad intergeneracional no sólo se están perpetuando las desigualdades, también se está comprometiendo el crecimiento potencial de las personas. Los estudiosos de los temas de movilidad intergeneracional han encontrado evidencia que una movilidad baja puede ser tanto causa como consecuencia de una mayor desigualdad. Por el contrario, una mayor movilidad está normalmente asociada a patrones de desarrollo más incluyentes.
+
+# Datos en México
+
+
+Para analizar este fenómeno de movilidad intergeneracional para México nuestros especialistas analizaron los datos de la Encuesta de Movilidad ESRU-EMOVI del Centro de Estudios Espinoza Yglesias (CEEY) de 2017. Esta encuesta entrevista a una muestra representativa de más de 17,000 personas entre 25 y 64 años de edad y recopila información sociodemográfica diversa del encuestado (por ejemplo edad, género, grado de escolaridad, características de su hogar actual, acceso a la salud, ocupación, etc) así como muchas de esas mismas variables para sus padres (escolaridad, ocupación, etc) y para el hogar en el que vivía cuando tenía 14 años (agua potable, pisos de cemento, etc). En la encuesta también se le pregunta al encuestado información que le permite a los especialistas aproximar el nivel de “riqueza” relativa del individuo hoy y cuando tenía 14 años (por ejemplo analizando qué aparatos electrodomésticos y electrónicos hay o había en el hogar, y qué servicios financieros tiene o tenía al alcance como tarjetas de crédito, cuentas bancarias, etc).
+
+El objetivo de recabar toda esta información es poder evaluar en qué medida “origen es destino”, es decir comparar algunas variables dadas las circunstancias de la vida del encuestado a los 14 años (origen) con esas variables hoy (destino).
+
+
+```
+## Error in file(con, "rb"): cannot open the connection
+```
+
+Como podemos observar, a los 14 años el 35% de los encuestados vivía en localidades con menos de 2,500 habitantes (pueblos), mientras que poco más del 25% vivía en ciudades de más de 100,000 habitantes. La escolaridad máxima del 28% de los entrevistados es la primaria, 31% tiene secundaria, poco más del 18% tienen preparatoria, mientras que el 11.5% posee educación superior y posgrado. Si vemos la escolaridad de los padres, en los niveles básicos observamos una distribución de años de escolaridad similar tanto para el padre como la madre: en ambos casos más del 60% sólo tiene primaria, aproximadamente el 15% tiene secundaria. En los niveles de licenciatura y posgrado, son más los padres que alcanzan dicho nivel (casi 6% para los padres contra 2.9% para las madres con este grado de escolaridad). En cuanto al número de hijos: sólo el 4.44% de las madres tienen 1 sólo hijo, casi 37% tiene entre 2 y 4 hijos y llama la atención que hay un 18.7% que reportan haber tenido más de 9 hijos (siendo el máximo reportado de 24 hijos).
+
+
+

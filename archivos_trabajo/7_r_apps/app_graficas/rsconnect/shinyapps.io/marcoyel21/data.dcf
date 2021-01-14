@@ -1,0 +1,12 @@
+name: data
+title: data
+username:
+account: marcoyel21
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3336272
+bundleId: 3931362
+url: https://marcoyel21.shinyapps.io/data/
+when: 1606889411.62525
+asMultiple: FALSE
+asStatic: FALSE

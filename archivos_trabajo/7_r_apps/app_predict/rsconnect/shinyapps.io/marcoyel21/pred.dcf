@@ -1,0 +1,12 @@
+name: pred
+title: pred
+username:
+account: marcoyel21
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3341546
+bundleId: 3936151
+url: https://marcoyel21.shinyapps.io/pred/
+when: 1606964597.39188
+asMultiple: FALSE
+asStatic: FALSE

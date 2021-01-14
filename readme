@@ -1,0 +1,18 @@
+
+Instrucciones del proyecto se encuentran en el archivo instrucciones.pdf
+
+
+El blog del data challenge se encuentra
+en el siguiente link: https://rpubs.com/marcoyel21/699202
+
+Se anexan los archivos de trabajo
+
+1_STATA_indice_ingreo-----> Se construye una variable objetivo
+2_r_transformacion--------> Se transforman los datos de dta a csv
+3_py_imputacion-----------> Se realizan las imputaciones menores
+4_r_transformar_var_obj---> Se reetiqueta la variable objetivo
+5_STATA_modelo------------> Se propone el modelo final y la base final
+6_r_samples---------------> Se crean submuestras para trabajar en R
+7_r_apps------------------> Se crean las apps de visualización
+8_r_markdown_blog_final---> Se construye el blog de resultados final
+
